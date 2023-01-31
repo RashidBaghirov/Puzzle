@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+body .box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .box .dropZone {
+  display: flex;
+}
+body .box .dropZone .image {
+  width: 480px;
+  height: 482px;
+  border: 2px solid rgb(240, 131, 240);
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .box .dropZone .image .dropp {
+  width: 158px;
+  height: 160px;
+  border: 0.5px solid rgb(3, 6, 7);
+}
+body .box .dropZone .image img {
+  width: 100%;
+}
+body .box .dropZone .box {
+  width: 480px;
+  height: 482px;
+  border: 2px solid rgb(240, 131, 240);
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .box .dropZone .box .dropp {
+  width: 158px;
+  height: 160px;
+  border: 0.5px solid rgb(3, 6, 7);
+}
+body .box .dropZone .box .dropp img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
